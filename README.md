@@ -38,7 +38,7 @@ public class Main {
 //Java Types
 
 package com.apnacollege;
-
+// Primitives types
 public class Main {
 
     public static void main(String[] args) {
@@ -61,6 +61,51 @@ public class Main {
 
         System.out.println(phone);
         System.out.println(age);
+    }
+}
+
+
+
+
+//Non primitives
+
+package com.apnacollege;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        //Non-primitive types
+       String name= "Nikhil";
+        //System.out.println(name.length()); //we can call the functions of non primitives using . operator !!
+        String friend= "More";
+        System.out.println(name.length());
+
+
+    }
+}
+
+
+***********************************************************************************************************************
+
+//Strings
+
+
+package com.apnacollege;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        //concatenate
+        String name1= "Nikhil";
+        String name2= "More";
+        String name3= name1 + " " + name2;
+        System.out.println(name3);
+
+        System.out.println(name1.charAt(0));
+
+
     }
 }
 
